@@ -1,3 +1,129 @@
+-- KEY SYSTEM START
+
+local correctKey = "key$20%semi@tp" -- change this
+local discordLink = "discord.gg/noserveryetlol"
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local player = Players.LocalPlayer
+
+-- GUI
+local gui = Instance.new("ScreenGui")
+gui.Name = "KeyUI"
+gui.Parent = player:WaitForChild("PlayerGui")
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0, 320, 0, 200)
+frame.Position = UDim2.new(0.5, -160, 0.5, -100)
+frame.BackgroundColor3 = Color3.fromRGB(20,20,20)
+frame.Parent = gui
+Instance.new("UICorner", frame).CornerRadius = UDim.new(0,12)
+
+local stroke = Instance.new("UIStroke", frame)
+stroke.Color = Color3.fromRGB(80,80,80)
+
+-- Title
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1,0,0,40)
+title.BackgroundTransparency = 1
+title.Text = "🔐 Secure Access"
+title.TextColor3 = Color3.fromRGB(255,255,255)
+title.Font = Enum.Font.GothamBold
+title.TextSize = 18
+title.Parent = frame
+
+-- Input
+local box = Instance.new("TextBox")
+box.Size = UDim2.new(1,-30,0,40)
+box.Position = UDim2.new(0,15,0,60)
+box.PlaceholderText = "Enter key..."
+box.BackgroundColor3 = Color3.fromRGB(35,35,35)
+box.TextColor3 = Color3.new(1,1,1)
+box.Font = Enum.Font.Gotham
+box.TextSize = 14
+box.Parent = frame
+Instance.new("UICorner", box).CornerRadius = UDim.new(0,8)
+
+-- Button
+local btn = Instance.new("TextButton")
+btn.Size = UDim2.new(1,-30,0,40)
+btn.Position = UDim2.new(0,15,0,110)
+btn.Text = "Unlock"
+btn.BackgroundColor3 = Color3.fromRGB(60,120,200)
+btn.TextColor3 = Color3.new(1,1,1)
+btn.Font = Enum.Font.GothamSemibold
+btn.TextSize = 14
+btn.Parent = frame
+Instance.new("UICorner", btn).CornerRadius = UDim.new(0,8)
+
+-- Status Text
+local status = Instance.new("TextLabel")
+status.Size = UDim2.new(1,0,0,20)
+status.Position = UDim2.new(0,0,1,-20)
+status.BackgroundTransparency = 1
+status.Text = ""
+status.TextColor3 = Color3.fromRGB(200,200,200)
+status.Font = Enum.Font.Gotham
+status.TextSize = 12
+status.Parent = frame
+
+-- Loading bar BG
+local loadBG = Instance.new("Frame")
+loadBG.Size = UDim2.new(1,-30,0,6)
+loadBG.Position = UDim2.new(0,15,1,-35)
+loadBG.BackgroundColor3 = Color3.fromRGB(40,40,40)
+loadBG.Visible = false
+loadBG.Parent = frame
+Instance.new("UICorner", loadBG).CornerRadius = UDim.new(1,0)
+
+-- Loading bar fill
+local loadFill = Instance.new("Frame")
+loadFill.Size = UDim2.new(0,0,1,0)
+loadFill.BackgroundColor3 = Color3.fromRGB(80,200,120)
+loadFill.Parent = loadBG
+Instance.new("UICorner", loadFill).CornerRadius = UDim.new(1,0)
+
+local unlocked = false
+
+-- Clipboard function (executor dependent)
+local function copyToClipboard(text)
+    if setclipboard then
+        setclipboard(text)
+    end
+end
+
+btn.MouseButton1Click:Connect(function()
+    if box.Text == correctKey then
+        status.Text = "Loading..."
+        loadBG.Visible = true
+
+        -- animate loading bar
+        local tween = TweenService:Create(loadFill, TweenInfo.new(1.5, Enum.EasingStyle.Quad), {
+            Size = UDim2.new(1,0,1,0)
+        })
+        tween:Play()
+        tween.Completed:Wait()
+
+        unlocked = true
+        gui:Destroy()
+
+    else
+        status.Text = "❌ WRONG KEY ❌, CHECK CLIPBOARD FOR SERVER LINK TO GET🔑 KEY 🔑"
+        status.TextColor3 = Color3.fromRGB(255,80,80)
+
+        copyToClipboard(discordLink)
+
+        btn.Text = "Try Again"
+        task.wait(1)
+        btn.Text = "Unlock"
+    end
+end)
+
+repeat task.wait() until unlocked
+
+
+-- key part end
+
 -- Semi TP
 
 local Players                = game:GetService("Players")
