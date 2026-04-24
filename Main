@@ -1,2 +1,378 @@
---obsifucated u little skid
-LS0gU2VtaSBUUAoKbG9jYWwgUGxheWVycyAgICAgICAgICAgICAgICA9IGdhbWU6R2V0U2VydmljZSgiUGxheWVycyIpCmxvY2FsIFByb3hpbWl0eVByb21wdFNlcnZpY2UgPSBnYW1lOkdldFNlcnZpY2UoIlByb3hpbWl0eVByb21wdFNlcnZpY2UiKQpsb2NhbCBwbGF5ZXIgICAgICAgICAgICAgICAgID0gUGxheWVycy5Mb2NhbFBsYXllcgoKLS0g4pSA4pSAIFByb3hpbWl0eSBQcm9tcHQgTG9naWMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmxvY2FsIGZ1bmN0aW9uIFRyaWdnZXJQcm9tcHQocHJvbXB0KQogICAgaWYgbm90IHByb21wdCB0aGVuIHJldHVybiBlbmQKICAgIGlmIHByb21wdC5LZXlib2FyZEtleUNvZGUgPT0gRW51bS5LZXlDb2RlLkYgdGhlbiByZXR1cm4gZW5kCiAgICBwY2FsbChmdW5jdGlvbigpCiAgICAgICAgcHJvbXB0LkhvbGREdXJhdGlvbiA9IDAKICAgICAgICBwcm9tcHQ6SW5wdXRIb2xkQmVnaW4oKQogICAgICAgIHRhc2sud2FpdCgwLjA1KQogICAgICAgIHByb21wdDpJbnB1dEhvbGRFbmQoKQogICAgZW5kKQplbmQKCmxvY2FsIGF1dG9HcmFiQWN0aXZlID0gZmFsc2UKCmxvY2FsIHJpZ2h0QmFzZUJveCAgICAgICAgPSBuaWwKbG9jYWwgbGVmdEJhc2VCb3ggICAgICAgICA9IG5pbApsb2NhbCBhdXRvVFBSaWdodEJveCAgICAgID0gbmlsCmxvY2FsIG5leHRUUEFmdGVyUmlnaHRCb3ggPSBuaWwKbG9jYWwgYXV0b1RQTGVmdEJveCAgICAgICA9IG5pbApsb2NhbCBuZXh0VFBBZnRlckxlZnRCb3ggID0gbmlsCgpsb2NhbCBzcGVlZEFmdGVyR3JhYkVuYWJsZWQgPSBmYWxzZQoKbG9jYWwgZnVuY3Rpb24gc3RhcnRBdXRvR3JhYihhZnRlckdyYWJDYWxsYmFjaykKICAgIGF1dG9HcmFiQWN0aXZlID0gdHJ1ZQogICAgdGFzay5zcGF3bihmdW5jdGlvbigpCiAgICAgICAgbG9jYWwgZ3JhYmJlZCA9IGZhbHNlCiAgICAgICAgd2hpbGUgYXV0b0dyYWJBY3RpdmUgZG8KICAgICAgICAgICAgdGFzay53YWl0KDAuMSkKICAgICAgICAgICAgbG9jYWwgY2hhciA9IHBsYXllci5DaGFyYWN0ZXIKICAgICAgICAgICAgaWYgY2hhciB0aGVuCiAgICAgICAgICAgICAgICBsb2NhbCByb290ID0gY2hhcjpGaW5kRmlyc3RDaGlsZCgiSHVtYW5vaWRSb290UGFydCIpCiAgICAgICAgICAgICAgICBpZiByb290IHRoZW4KICAgICAgICAgICAgICAgICAgICBmb3IgXywgb2JqIGluIHBhaXJzKHdvcmtzcGFjZTpHZXREZXNjZW5kYW50cygpKSBkbwogICAgICAgICAgICAgICAgICAgICAgICBpZiBub3QgYXV0b0dyYWJBY3RpdmUgdGhlbiBicmVhayBlbmQKICAgICAgICAgICAgICAgICAgICAgICAgaWYgb2JqOklzQSgiUHJveGltaXR5UHJvbXB0IikgdGhlbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgb2JqLktleWJvYXJkS2V5Q29kZSA9PSBFbnVtLktleUNvZGUuRiB0aGVuIGNvbnRpbnVlIGVuZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9jYWwgcGFydCA9IG9iai5QYXJlbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdoaWxlIHBhcnQgYW5kIG5vdCBwYXJ0OklzQSgiQmFzZVBhcnQiKSBkbwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcnQgPSBwYXJ0LlBhcmVudAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBwYXJ0IGFuZCBwYXJ0OklzQSgiQmFzZVBhcnQiKSB0aGVuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9jYWwgZGlzdCA9IChwYXJ0LlBvc2l0aW9uIC0gcm9vdC5Qb3NpdGlvbikuTWFnbml0dWRlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgZGlzdCA8PSBvYmouTWF4QWN0aXZhdGlvbkRpc3RhbmNlIHRoZW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVHJpZ2dlclByb21wdChvYmopCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5vdCBncmFiYmVkIHRoZW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdyYWJiZWQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdXRvR3JhYkFjdGl2ZSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBzcGVlZEFmdGVyR3JhYkVuYWJsZWQgdGhlbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsIGMgPSBwbGF5ZXIuQ2hhcmFjdGVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgYyB0aGVuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsIGh1bSA9IGM6RmluZEZpcnN0Q2hpbGRPZkNsYXNzKCJIdW1hbm9pZCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGh1bSB0aGVuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBodW0uV2Fsa1NwZWVkID0gMjgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGFmdGVyR3JhYkNhbGxiYWNrIHRoZW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YXNrLndhaXQoMC4zKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFmdGVyR3JhYkNhbGxiYWNrKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZAogICAgICAgICAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgICAgICBlbmQKICAgICAgICAgICAgICAgIGVuZAogICAgICAgICAgICBlbmQKICAgICAgICBlbmQKICAgIGVuZCkKZW5kCgpsb2NhbCBmdW5jdGlvbiBzdG9wQXV0b0dyYWIoKQogICAgYXV0b0dyYWJBY3RpdmUgPSBmYWxzZQplbmQKCi0tIOKUgOKUgCBHVUkgU2V0dXAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmxvY2FsIHNjcmVlbkd1aSA9IEluc3RhbmNlLm5ldygiU2NyZWVuR3VpIikKc2NyZWVuR3VpLk5hbWUgPSAiU2VtaVRQR3VpIgpzY3JlZW5HdWkuUmVzZXRPblNwYXduID0gZmFsc2UKc2NyZWVuR3VpLlBhcmVudCA9IHBsYXllci5QbGF5ZXJHdWkKCmxvY2FsIG1haW5GcmFtZSA9IEluc3RhbmNlLm5ldygiRnJhbWUiKQptYWluRnJhbWUuTmFtZSA9ICJNYWluRnJhbWUiCm1haW5GcmFtZS5TaXplID0gVURpbTIubmV3KDAsIDIwMCwgMCwgMjkwKQptYWluRnJhbWUuUG9zaXRpb24gPSBVRGltMi5uZXcoMC41LCAtMTAwLCAwLjUsIC0xNDUpCm1haW5GcmFtZS5CYWNrZ3JvdW5kQ29sb3IzID0gQ29sb3IzLmZyb21SR0IoMzAsIDMwLCAzMCkKbWFpbkZyYW1lLkJvcmRlclNpemVQaXhlbCA9IDAKbWFpbkZyYW1lLkFjdGl2ZSA9IHRydWUKbWFpbkZyYW1lLkRyYWdnYWJsZSA9IHRydWUKbWFpbkZyYW1lLlBhcmVudCA9IHNjcmVlbkd1aQoKbG9jYWwgZnJhbWVDb3JuZXIgPSBJbnN0YW5jZS5uZXcoIlVJQ29ybmVyIikKZnJhbWVDb3JuZXIuQ29ybmVyUmFkaXVzID0gVURpbS5uZXcoMCwgMTApCmZyYW1lQ29ybmVyLlBhcmVudCA9IG1haW5GcmFtZQoKbG9jYWwgZnJhbWVTdHJva2UgPSBJbnN0YW5jZS5uZXcoIlVJU3Ryb2tlIikKZnJhbWVTdHJva2UuQ29sb3IgPSBDb2xvcjMuZnJvbVJHQig4MCwgODAsIDgwKQpmcmFtZVN0cm9rZS5UaGlja25lc3MgPSAxLjUKZnJhbWVTdHJva2UuUGFyZW50ID0gbWFpbkZyYW1lCgpsb2NhbCB0aXRsZUxhYmVsID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiKQp0aXRsZUxhYmVsLk5hbWUgPSAiVGl0bGUiCnRpdGxlTGFiZWwuU2l6ZSA9IFVEaW0yLm5ldygxLCAwLCAwLCA0MCkKdGl0bGVMYWJlbC5Qb3NpdGlvbiA9IFVEaW0yLm5ldygwLCAwLCAwLCAwKQp0aXRsZUxhYmVsLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyMCwgMjAsIDIwKQp0aXRsZUxhYmVsLkJvcmRlclNpemVQaXhlbCA9IDAKdGl0bGVMYWJlbC5UZXh0ID0gIlNlbWkgVFAiCnRpdGxlTGFiZWwuVGV4dENvbG9yMyA9IENvbG9yMy5mcm9tUkdCKDI1NSwgMjU1LCAyNTUpCnRpdGxlTGFiZWwuVGV4dFNpemUgPSAxOAp0aXRsZUxhYmVsLkZvbnQgPSBFbnVtLkZvbnQuR290aGFtQm9sZAp0aXRsZUxhYmVsLlBhcmVudCA9IG1haW5GcmFtZQoKbG9jYWwgdGl0bGVDb3JuZXIgPSBJbnN0YW5jZS5uZXcoIlVJQ29ybmVyIikKdGl0bGVDb3JuZXIuQ29ybmVyUmFkaXVzID0gVURpbS5uZXcoMCwgMTApCnRpdGxlQ29ybmVyLlBhcmVudCA9IHRpdGxlTGFiZWwKCmxvY2FsIGZ1bmN0aW9uIGNyZWF0ZUJ1dHRvbihuYW1lLCB0ZXh0LCBwb3NZLCBiZ0NvbG9yKQogICAgbG9jYWwgYnRuID0gSW5zdGFuY2UubmV3KCJUZXh0QnV0dG9uIikKICAgIGJ0bi5OYW1lID0gbmFtZQogICAgYnRuLlNpemUgPSBVRGltMi5uZXcoMSwgLTIwLCAwLCAzOCkKICAgIGJ0bi5Qb3NpdGlvbiA9IFVEaW0yLm5ldygwLCAxMCwgMCwgcG9zWSkKICAgIGJ0bi5CYWNrZ3JvdW5kQ29sb3IzID0gYmdDb2xvciBvciBDb2xvcjMuZnJvbVJHQig1MCwgNTAsIDUwKQogICAgYnRuLkJvcmRlclNpemVQaXhlbCA9IDAKICAgIGJ0bi5UZXh0ID0gdGV4dAogICAgYnRuLlRleHRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyNTUsIDI1NSwgMjU1KQogICAgYnRuLlRleHRTaXplID0gMTQKICAgIGJ0bi5Gb250ID0gRW51bS5Gb250LkdvdGhhbVNlbWlib2xkCiAgICBidG4uQXV0b0J1dHRvbkNvbG9yID0gdHJ1ZQogICAgYnRuLlBhcmVudCA9IG1haW5GcmFtZQoKICAgIGxvY2FsIGNvcm5lciA9IEluc3RhbmNlLm5ldygiVUlDb3JuZXIiKQogICAgY29ybmVyLkNvcm5lclJhZGl1cyA9IFVEaW0ubmV3KDAsIDcpCiAgICBjb3JuZXIuUGFyZW50ID0gYnRuCgogICAgbG9jYWwgc3Ryb2tlID0gSW5zdGFuY2UubmV3KCJVSVN0cm9rZSIpCiAgICBzdHJva2UuQ29sb3IgPSBDb2xvcjMuZnJvbVJHQigxMDAsIDEwMCwgMTAwKQogICAgc3Ryb2tlLlRoaWNrbmVzcyA9IDEKICAgIHN0cm9rZS5QYXJlbnQgPSBidG4KCiAgICByZXR1cm4gYnRuCmVuZAoKbG9jYWwgcmlnaHRCYXNlQnRuID0gY3JlYXRlQnV0dG9uKCJSaWdodEJhc2VCdG4iLCAiUmlnaHQgQmFzZSIsICA1MCwgIENvbG9yMy5mcm9tUkdCKDYwLCAxMDAsIDE4MCkpCmxvY2FsIGxlZnRCYXNlQnRuICA9IGNyZWF0ZUJ1dHRvbigiTGVmdEJhc2VCdG4iLCAgIkxlZnQgQmFzZSIsICAgOTgsICBDb2xvcjMuZnJvbVJHQig2MCwgMTAwLCAxODApKQpsb2NhbCB0cExlZnRCdG4gICAgPSBjcmVhdGVCdXR0b24oIlRQTGVmdEJ0biIsICAgICJUUCB0byBMZWZ0IiwgIDE0NiwgQ29sb3IzLmZyb21SR0IoNDAsIDE0MCwgODApKQpsb2NhbCB0cFJpZ2h0QnRuICAgPSBjcmVhdGVCdXR0b24oIlRQUmlnaHRCdG4iLCAgICJUUCB0byBSaWdodCIsIDE5NCwgQ29sb3IzLmZyb21SR0IoMTQwLCA2MCwgNjApKQoKLS0g4pSA4pSAIFNwZWVkIFRvZ2dsZSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKbG9jYWwgdG9nZ2xlUm93ID0gSW5zdGFuY2UubmV3KCJGcmFtZSIpCnRvZ2dsZVJvdy5OYW1lID0gIlNwZWVkVG9nZ2xlUm93Igp0b2dnbGVSb3cuU2l6ZSA9IFVEaW0yLm5ldygxLCAtMjAsIDAsIDMyKQp0b2dnbGVSb3cuUG9zaXRpb24gPSBVRGltMi5uZXcoMCwgMTAsIDAsIDI0NCkKdG9nZ2xlUm93LkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyMiwgMjIsIDIyKQp0b2dnbGVSb3cuQm9yZGVyU2l6ZVBpeGVsID0gMAp0b2dnbGVSb3cuUGFyZW50ID0gbWFpbkZyYW1lCgpsb2NhbCB0b2dnbGVSb3dDb3JuZXIgPSBJbnN0YW5jZS5uZXcoIlVJQ29ybmVyIikKdG9nZ2xlUm93Q29ybmVyLkNvcm5lclJhZGl1cyA9IFVEaW0ubmV3KDAsIDcpCnRvZ2dsZVJvd0Nvcm5lci5QYXJlbnQgPSB0b2dnbGVSb3cKCmxvY2FsIHRvZ2dsZVJvd1N0cm9rZSA9IEluc3RhbmNlLm5ldygiVUlTdHJva2UiKQp0b2dnbGVSb3dTdHJva2UuQ29sb3IgPSBDb2xvcjMuZnJvbVJHQig4MCwgODAsIDgwKQp0b2dnbGVSb3dTdHJva2UuVGhpY2tuZXNzID0gMQp0b2dnbGVSb3dTdHJva2UuUGFyZW50ID0gdG9nZ2xlUm93Cgpsb2NhbCB0b2dnbGVMYWJlbCA9IEluc3RhbmNlLm5ldygiVGV4dExhYmVsIikKdG9nZ2xlTGFiZWwuU2l6ZSA9IFVEaW0yLm5ldygxLCAtNDQsIDEsIDApCnRvZ2dsZUxhYmVsLlBvc2l0aW9uID0gVURpbTIubmV3KDAsIDEwLCAwLCAwKQp0b2dnbGVMYWJlbC5CYWNrZ3JvdW5kVHJhbnNwYXJlbmN5ID0gMQp0b2dnbGVMYWJlbC5UZXh0ID0gIlNwZWVkIGFmdGVyIEdyYWIiCnRvZ2dsZUxhYmVsLlRleHRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyMDAsIDIwMCwgMjAwKQp0b2dnbGVMYWJlbC5UZXh0U2l6ZSA9IDEyCnRvZ2dsZUxhYmVsLkZvbnQgPSBFbnVtLkZvbnQuR290aGFtU2VtaWJvbGQKdG9nZ2xlTGFiZWwuVGV4dFhBbGlnbm1lbnQgPSBFbnVtLlRleHRYQWxpZ25tZW50LkxlZnQKdG9nZ2xlTGFiZWwuUGFyZW50ID0gdG9nZ2xlUm93Cgpsb2NhbCBjaGVja2JveCA9IEluc3RhbmNlLm5ldygiVGV4dEJ1dHRvbiIpCmNoZWNrYm94Lk5hbWUgPSAiQ2hlY2tib3giCmNoZWNrYm94LlNpemUgPSBVRGltMi5uZXcoMCwgMjAsIDAsIDIwKQpjaGVja2JveC5Qb3NpdGlvbiA9IFVEaW0yLm5ldygxLCAtMjgsIDAuNSwgLTEwKQpjaGVja2JveC5CYWNrZ3JvdW5kQ29sb3IzID0gQ29sb3IzLmZyb21SR0IoNDUsIDQ1LCA0NSkKY2hlY2tib3guQm9yZGVyU2l6ZVBpeGVsID0gMApjaGVja2JveC5UZXh0ID0gIiIKY2hlY2tib3guQXV0b0J1dHRvbkNvbG9yID0gZmFsc2UKY2hlY2tib3guUGFyZW50ID0gdG9nZ2xlUm93Cgpsb2NhbCBjaGVja2JveENvcm5lciA9IEluc3RhbmNlLm5ldygiVUlDb3JuZXIiKQpjaGVja2JveENvcm5lci5Db3JuZXJSYWRpdXMgPSBVRGltLm5ldygwLCA1KQpjaGVja2JveENvcm5lci5QYXJlbnQgPSBjaGVja2JveAoKbG9jYWwgY2hlY2tib3hTdHJva2UgPSBJbnN0YW5jZS5uZXcoIlVJU3Ryb2tlIikKY2hlY2tib3hTdHJva2UuQ29sb3IgPSBDb2xvcjMuZnJvbVJHQigxMDAsIDEwMCwgMTAwKQpjaGVja2JveFN0cm9rZS5UaGlja25lc3MgPSAxLjUKY2hlY2tib3hTdHJva2UuUGFyZW50ID0gY2hlY2tib3gKCmxvY2FsIGNoZWNrbWFyayA9IEluc3RhbmNlLm5ldygiVGV4dExhYmVsIikKY2hlY2ttYXJrLlNpemUgPSBVRGltMi5uZXcoMSwgMCwgMSwgMCkKY2hlY2ttYXJrLkJhY2tncm91bmRUcmFuc3BhcmVuY3kgPSAxCmNoZWNrbWFyay5UZXh0ID0gIuKckyIKY2hlY2ttYXJrLlRleHRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQig2MCwgMjIwLCAxMDApCmNoZWNrbWFyay5UZXh0U2l6ZSA9IDE0CmNoZWNrbWFyay5Gb250ID0gRW51bS5Gb250LkdvdGhhbUJvbGQKY2hlY2ttYXJrLlZpc2libGUgPSBmYWxzZQpjaGVja21hcmsuUGFyZW50ID0gY2hlY2tib3gKCmNoZWNrYm94Lk1vdXNlQnV0dG9uMUNsaWNrOkNvbm5lY3QoZnVuY3Rpb24oKQogICAgc3BlZWRBZnRlckdyYWJFbmFibGVkID0gbm90IHNwZWVkQWZ0ZXJHcmFiRW5hYmxlZAogICAgY2hlY2ttYXJrLlZpc2libGUgPSBzcGVlZEFmdGVyR3JhYkVuYWJsZWQKICAgIGNoZWNrYm94LkJhY2tncm91bmRDb2xvcjMgPSBzcGVlZEFmdGVyR3JhYkVuYWJsZWQKICAgICAgICBhbmQgQ29sb3IzLmZyb21SR0IoMzAsIDYwLCAzNSkKICAgICAgICBvciAgQ29sb3IzLmZyb21SR0IoNDUsIDQ1LCA0NSkKICAgIGNoZWNrYm94U3Ryb2tlLkNvbG9yID0gc3BlZWRBZnRlckdyYWJFbmFibGVkCiAgICAgICAgYW5kIENvbG9yMy5mcm9tUkdCKDYwLCAyMjAsIDEwMCkKICAgICAgICBvciAgQ29sb3IzLmZyb21SR0IoMTAwLCAxMDAsIDEwMCkKZW5kKQoKLS0g4pSA4pSAIEJhc2UgQm94IENyZWF0b3Ig4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmxvY2FsIGZ1bmN0aW9uIGNyZWF0ZUJhc2VCb3gobGFiZWxUZXh0LCB4LCB5LCB6LCBjb2xvcikKICAgIGxvY2FsIGV4aXN0aW5nID0gd29ya3NwYWNlOkZpbmRGaXJzdENoaWxkKGxhYmVsVGV4dCAuLiAiQm94IikKICAgIGlmIGV4aXN0aW5nIHRoZW4gZXhpc3Rpbmc6RGVzdHJveSgpIGVuZAoKICAgIGxvY2FsIGJveCA9IEluc3RhbmNlLm5ldygiUGFydCIpCiAgICBib3guTmFtZSA9IGxhYmVsVGV4dCAuLiAiQm94IgogICAgYm94LlNpemUgPSBWZWN0b3IzLm5ldyg0LCA0LCA0KQogICAgYm94LlBvc2l0aW9uID0gVmVjdG9yMy5uZXcoeCwgeSwgeikKICAgIGJveC5BbmNob3JlZCA9IHRydWUKICAgIGJveC5DYW5Db2xsaWRlID0gZmFsc2UKICAgIGJveC5Ccmlja0NvbG9yID0gY29sb3Igb3IgQnJpY2tDb2xvci5uZXcoIkJyaWdodCBibHVlIikKICAgIGJveC5NYXRlcmlhbCA9IEVudW0uTWF0ZXJpYWwuTmVvbgogICAgYm94LlRyYW5zcGFyZW5jeSA9IDAuNAogICAgYm94LlBhcmVudCA9IHdvcmtzcGFjZQoKICAgIGxvY2FsIGJpbGxib2FyZCA9IEluc3RhbmNlLm5ldygiQmlsbGJvYXJkR3VpIikKICAgIGJpbGxib2FyZC5TaXplID0gVURpbTIubmV3KDAsIDE2MCwgMCwgNDApCiAgICBiaWxsYm9hcmQuU3R1ZHNPZmZzZXQgPSBWZWN0b3IzLm5ldygwLCAzLCAwKQogICAgYmlsbGJvYXJkLkFsd2F5c09uVG9wID0gdHJ1ZQogICAgYmlsbGJvYXJkLlBhcmVudCA9IGJveAoKICAgIGxvY2FsIGxhYmVsID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiKQogICAgbGFiZWwuU2l6ZSA9IFVEaW0yLm5ldygxLCAwLCAxLCAwKQogICAgbGFiZWwuQmFja2dyb3VuZFRyYW5zcGFyZW5jeSA9IDEKICAgIGxhYmVsLlRleHQgPSBsYWJlbFRleHQKICAgIGxhYmVsLlRleHRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyNTUsIDI1NSwgMjU1KQogICAgbGFiZWwuVGV4dFNjYWxlZCA9IHRydWUKICAgIGxhYmVsLkZvbnQgPSBFbnVtLkZvbnQuR290aGFtQm9sZAogICAgbGFiZWwuUGFyZW50ID0gYmlsbGJvYXJkCgogICAgcmV0dXJuIGJveAplbmQKCi0tIOKUgOKUgCBFcXVpcCBGbHlpbmcgQ2FycGV0IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApsb2NhbCBmdW5jdGlvbiBlcXVpcEZseWluZ0NhcnBldCgpCiAgICBsb2NhbCBjaGFyID0gcGxheWVyLkNoYXJhY3RlcgogICAgaWYgbm90IGNoYXIgdGhlbiByZXR1cm4gZW5kCiAgICBsb2NhbCBodW1hbm9pZCA9IGNoYXI6RmluZEZpcnN0Q2hpbGRPZkNsYXNzKCJIdW1hbm9pZCIpCiAgICBpZiBub3QgaHVtYW5vaWQgdGhlbiByZXR1cm4gZW5kCgogICAgbG9jYWwgdG9vbCA9IHBsYXllci5CYWNrcGFjazpGaW5kRmlyc3RDaGlsZCgiRmx5aW5nIENhcnBldCIpCiAgICBpZiB0b29sIHRoZW4KICAgICAgICB0b29sLlBhcmVudCA9IGNoYXIKICAgIGVsc2VpZiBjaGFyOkZpbmRGaXJzdENoaWxkKCJGbHlpbmcgQ2FycGV0IikgdGhlbgogICAgICAgIC0tIEFscmVhZHkgZXF1aXBwZWQKICAgIGVsc2UKICAgICAgICB3YXJuKCJGbHlpbmcgQ2FycGV0IHRvb2wgbm90IGZvdW5kIGluIGJhY2twYWNrISIpCiAgICBlbmQKZW5kCgotLSDilIDilIAgVGVsZXBvcnQgaGVscGVyIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApsb2NhbCBmdW5jdGlvbiB0cFRvKHgsIHksIHopCiAgICBsb2NhbCBjaGFyID0gcGxheWVyLkNoYXJhY3RlcgogICAgaWYgbm90IGNoYXIgdGhlbiByZXR1cm4gZW5kCiAgICBsb2NhbCByb290UGFydCA9IGNoYXI6RmluZEZpcnN0Q2hpbGQoIkh1bWFub2lkUm9vdFBhcnQiKQogICAgaWYgbm90IHJvb3RQYXJ0IHRoZW4gcmV0dXJuIGVuZAogICAgcm9vdFBhcnQuQ0ZyYW1lID0gQ0ZyYW1lLm5ldyh4LCB5LCB6KQplbmQKCi0tIOKUgOKUgCBQb3N0LWdyYWIgc2VxdWVuY2UgZm9yIFJpZ2h0IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApsb2NhbCBmdW5jdGlvbiBkb1JpZ2h0UG9zdEdyYWJTZXF1ZW5jZSgpCiAgICBsb2NhbCBhdXRvUG9zID0gYXV0b1RQUmlnaHRCb3gKICAgICAgICBhbmQgKGF1dG9UUFJpZ2h0Qm94LlBvc2l0aW9uICsgVmVjdG9yMy5uZXcoMCwgNCwgMCkpCiAgICAgICAgb3IgVmVjdG9yMy5uZXcoLTM0OC40LCAtMy4wLCA5MC43KQogICAgdHBUbyhhdXRvUG9zLlgsIGF1dG9Qb3MuWSwgYXV0b1Bvcy5aKQoKICAgIHRhc2sud2FpdCgwLjUpCgogICAgbG9jYWwgbmV4dFBvcyA9IG5leHRUUEFmdGVyUmlnaHRCb3gKICAgICAgICBhbmQgKG5leHRUUEFmdGVyUmlnaHRCb3guUG9zaXRpb24gKyBWZWN0b3IzLm5ldygwLCA0LCAwKSkKICAgICAgICBvciBWZWN0b3IzLm5ldygtMzQ4LjMsIC0zLjAsIDc2LjUpCiAgICB0cFRvKG5leHRQb3MuWCwgbmV4dFBvcy5ZLCBuZXh0UG9zLlopCmVuZAoKLS0g4pSA4pSAIFBvc3QtZ3JhYiBzZXF1ZW5jZSBmb3IgTGVmdCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKbG9jYWwgZnVuY3Rpb24gZG9MZWZ0UG9zdEdyYWJTZXF1ZW5jZSgpCiAgICBsb2NhbCBhdXRvUG9zID0gYXV0b1RQTGVmdEJveAogICAgICAgIGFuZCAoYXV0b1RQTGVmdEJveC5Qb3NpdGlvbiArIFZlY3RvcjMubmV3KDAsIDQsIDApKQogICAgICAgIG9yIFZlY3RvcjMubmV3KC0zNDkuNywgLTMuMCwgMjkuMykKICAgIHRwVG8oYXV0b1Bvcy5YLCBhdXRvUG9zLlksIGF1dG9Qb3MuWikKCiAgICB0YXNrLndhaXQoMC4zKQoKICAgIGxvY2FsIG5leHRQb3MgPSBuZXh0VFBBZnRlckxlZnRCb3gKICAgICAgICBhbmQgKG5leHRUUEFmdGVyTGVmdEJveC5Qb3NpdGlvbiArIFZlY3RvcjMubmV3KDAsIDQsIDApKQogICAgICAgIG9yIFZlY3RvcjMubmV3KC0zNDkuNywgLTMuMCwgMTguMykgLS0gMTEgc3R1ZHMgYWZ0ZXIgb24gWiBheGlzCiAgICB0cFRvKG5leHRQb3MuWCwgbmV4dFBvcy5ZLCBuZXh0UG9zLlopCmVuZAoKLS0g4pSA4pSAIFR3by1TdGFnZSBUUCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKbG9jYWwgZnVuY3Rpb24gdHdvU3RhZ2VUUChtaWRYLCBtaWRZLCBtaWRaLCBmaW5hbFBvcywgaXNSaWdodCkKICAgIGxvY2FsIGNoYXIgPSBwbGF5ZXIuQ2hhcmFjdGVyCiAgICBpZiBub3QgY2hhciB0aGVuIHJldHVybiBlbmQKICAgIGxvY2FsIHJvb3RQYXJ0ID0gY2hhcjpGaW5kRmlyc3RDaGlsZCgiSHVtYW5vaWRSb290UGFydCIpCiAgICBpZiBub3Qgcm9vdFBhcnQgdGhlbiByZXR1cm4gZW5kCgogICAgLS0gU3RhZ2UgMQogICAgcm9vdFBhcnQuQ0ZyYW1lID0gQ0ZyYW1lLm5ldyhtaWRYLCBtaWRZLCBtaWRaKQoKICAgIHRhc2sud2FpdCgwLjMpCgogICAgY2hhciA9IHBsYXllci5DaGFyYWN0ZXIKICAgIGlmIG5vdCBjaGFyIHRoZW4gcmV0dXJuIGVuZAogICAgcm9vdFBhcnQgPSBjaGFyOkZpbmRGaXJzdENoaWxkKCJIdW1hbm9pZFJvb3RQYXJ0IikKICAgIGlmIG5vdCByb290UGFydCB0aGVuIHJldHVybiBlbmQKCiAgICAtLSBTdGFnZSAyCiAgICByb290UGFydC5DRnJhbWUgPSBDRnJhbWUubmV3KGZpbmFsUG9zKQoKICAgIGVxdWlwRmx5aW5nQ2FycGV0KCkKCiAgICBpZiBpc1JpZ2h0IHRoZW4KICAgICAgICBzdGFydEF1dG9HcmFiKGZ1bmN0aW9uKCkKICAgICAgICAgICAgZG9SaWdodFBvc3RHcmFiU2VxdWVuY2UoKQogICAgICAgIGVuZCkKICAgIGVsc2UKICAgICAgICBzdGFydEF1dG9HcmFiKGZ1bmN0aW9uKCkKICAgICAgICAgICAgZG9MZWZ0UG9zdEdyYWJTZXF1ZW5jZSgpCiAgICAgICAgZW5kKQogICAgZW5kCmVuZAoKLS0g4pSA4pSAIEJ1dHRvbiBMb2dpYyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKcmlnaHRCYXNlQnRuLk1vdXNlQnV0dG9uMUNsaWNrOkNvbm5lY3QoZnVuY3Rpb24oKQogICAgcmlnaHRCYXNlQm94ICAgICAgICA9IGNyZWF0ZUJhc2VCb3goIlJJR0hUIEJBU0UiLCAgICAgICAgICAtMzM2LjYsIC01LjEsIDk2LjgsIEJyaWNrQ29sb3IubmV3KCJCcmlnaHQgYmx1ZSIpKQogICAgYXV0b1RQUmlnaHRCb3ggICAgICA9IGNyZWF0ZUJhc2VCb3goIkFVVE8gVFAgUklHSFQiLCAgICAgICAtMzQ4LjQsIC03LjAsIDkwLjcsIEJyaWNrQ29sb3IubmV3KCJCcmlnaHQgb3JhbmdlIikpCiAgICBuZXh0VFBBZnRlclJpZ2h0Qm94ID0gY3JlYXRlQmFzZUJveCgiTkVYVCBUUCBBRlRFUiBSSUdIVCIsIC0zNDguMywgLTcuMCwgNzYuNSwgQnJpY2tDb2xvci5uZXcoIkJyaWdodCBncmVlbiIpKQplbmQpCgpsZWZ0QmFzZUJ0bi5Nb3VzZUJ1dHRvbjFDbGljazpDb25uZWN0KGZ1bmN0aW9uKCkKICAgIGxlZnRCYXNlQm94ICAgICAgICA9IGNyZWF0ZUJhc2VCb3goIkxFRlQgQkFTRSIsICAgICAgICAgICAtMzM2LjgsIC01LjAsIDI0LjMsICBCcmlja0NvbG9yLm5ldygiQnJpZ2h0IGJsdWUiKSkKICAgIGF1dG9UUExlZnRCb3ggICAgICA9IGNyZWF0ZUJhc2VCb3goIkFVVE8gVFAgTEVGVCIsICAgICAgICAtMzQ5LjcsIC03LjAsIDI5LjMsICBCcmlja0NvbG9yLm5ldygiQnJpZ2h0IG9yYW5nZSIpKQogICAgbmV4dFRQQWZ0ZXJMZWZ0Qm94ID0gY3JlYXRlQmFzZUJveCgiTkVYVCBUUCBBRlRFUiBMRUZUIiwgIC0zNDkuNywgLTcuMCwgNDUuNywgIEJyaWNrQ29sb3IubmV3KCJCcmlnaHQgZ3JlZW4iKSkKZW5kKQoKdHBMZWZ0QnRuLk1vdXNlQnV0dG9uMUNsaWNrOkNvbm5lY3QoZnVuY3Rpb24oKQogICAgbG9jYWwgZmluYWxQb3MKICAgIGlmIGxlZnRCYXNlQm94IHRoZW4KICAgICAgICBmaW5hbFBvcyA9IGxlZnRCYXNlQm94LlBvc2l0aW9uICsgVmVjdG9yMy5uZXcoMCwgNCwgMCkKICAgIGVsc2UKICAgICAgICBmaW5hbFBvcyA9IFZlY3RvcjMubmV3KC0zMzYuOCwgLTEuMCwgMjQuMykKICAgIGVuZAogICAgdHdvU3RhZ2VUUCgtMzQ0LjQsIC03LjAsIDQxLjcsIGZpbmFsUG9zLCBmYWxzZSkKZW5kKQoKdHBSaWdodEJ0bi5Nb3VzZUJ1dHRvbjFDbGljazpDb25uZWN0KGZ1bmN0aW9uKCkKICAgIGxvY2FsIGZpbmFsUG9zCiAgICBpZiByaWdodEJhc2VCb3ggdGhlbgogICAgICAgIGZpbmFsUG9zID0gcmlnaHRCYXNlQm94LlBvc2l0aW9uICsgVmVjdG9yMy5uZXcoMCwgNCwgMCkKICAgIGVsc2UKICAgICAgICBmaW5hbFBvcyA9IFZlY3RvcjMubmV3KC0zMzYuNiwgLTEuMSwgOTYuOCkKICAgIGVuZAogICAgdHdvU3RhZ2VUUCgtMzQ1LjIsIC03LjAsIDc3LjMsIGZpbmFsUG9zLCB0cnVlKQplbmQp
+-- Semi TP
+
+local Players                = game:GetService("Players")
+local ProximityPromptService = game:GetService("ProximityPromptService")
+local player                 = Players.LocalPlayer
+
+-- ── Proximity Prompt Logic ──────────────────
+local function TriggerPrompt(prompt)
+    if not prompt then return end
+    if prompt.KeyboardKeyCode == Enum.KeyCode.F then return end
+    pcall(function()
+        prompt.HoldDuration = 0
+        prompt:InputHoldBegin()
+        task.wait(0.05)
+        prompt:InputHoldEnd()
+    end)
+end
+
+local autoGrabActive = false
+
+local rightBaseBox        = nil
+local leftBaseBox         = nil
+local autoTPRightBox      = nil
+local nextTPAfterRightBox = nil
+local autoTPLeftBox       = nil
+local nextTPAfterLeftBox  = nil
+
+local speedAfterGrabEnabled = false
+
+local function startAutoGrab(afterGrabCallback)
+    autoGrabActive = true
+    task.spawn(function()
+        local grabbed = false
+        while autoGrabActive do
+            task.wait(0.1)
+            local char = player.Character
+            if char then
+                local root = char:FindFirstChild("HumanoidRootPart")
+                if root then
+                    for _, obj in pairs(workspace:GetDescendants()) do
+                        if not autoGrabActive then break end
+                        if obj:IsA("ProximityPrompt") then
+                            if obj.KeyboardKeyCode == Enum.KeyCode.F then continue end
+                            local part = obj.Parent
+                            while part and not part:IsA("BasePart") do
+                                part = part.Parent
+                            end
+                            if part and part:IsA("BasePart") then
+                                local dist = (part.Position - root.Position).Magnitude
+                                if dist <= obj.MaxActivationDistance then
+                                    TriggerPrompt(obj)
+                                    if not grabbed then
+                                        grabbed = true
+                                        autoGrabActive = false
+                                        if speedAfterGrabEnabled then
+                                            local c = player.Character
+                                            if c then
+                                                local hum = c:FindFirstChildOfClass("Humanoid")
+                                                if hum then
+                                                    hum.WalkSpeed = 28
+                                                end
+                                            end
+                                        end
+                                        if afterGrabCallback then
+                                            task.wait(0.3)
+                                            afterGrabCallback()
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end)
+end
+
+local function stopAutoGrab()
+    autoGrabActive = false
+end
+
+-- ── GUI Setup ───────────────────────────────
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "SemiTPGui"
+screenGui.ResetOnSpawn = false
+screenGui.Parent = player.PlayerGui
+
+local mainFrame = Instance.new("Frame")
+mainFrame.Name = "MainFrame"
+mainFrame.Size = UDim2.new(0, 200, 0, 290)
+mainFrame.Position = UDim2.new(0.5, -100, 0.5, -145)
+mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+mainFrame.BorderSizePixel = 0
+mainFrame.Active = true
+mainFrame.Draggable = true
+mainFrame.Parent = screenGui
+
+local frameCorner = Instance.new("UICorner")
+frameCorner.CornerRadius = UDim.new(0, 10)
+frameCorner.Parent = mainFrame
+
+local frameStroke = Instance.new("UIStroke")
+frameStroke.Color = Color3.fromRGB(80, 80, 80)
+frameStroke.Thickness = 1.5
+frameStroke.Parent = mainFrame
+
+local titleLabel = Instance.new("TextLabel")
+titleLabel.Name = "Title"
+titleLabel.Size = UDim2.new(1, 0, 0, 40)
+titleLabel.Position = UDim2.new(0, 0, 0, 0)
+titleLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+titleLabel.BorderSizePixel = 0
+titleLabel.Text = "Semi TP"
+titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+titleLabel.TextSize = 18
+titleLabel.Font = Enum.Font.GothamBold
+titleLabel.Parent = mainFrame
+
+local titleCorner = Instance.new("UICorner")
+titleCorner.CornerRadius = UDim.new(0, 10)
+titleCorner.Parent = titleLabel
+
+local function createButton(name, text, posY, bgColor)
+    local btn = Instance.new("TextButton")
+    btn.Name = name
+    btn.Size = UDim2.new(1, -20, 0, 38)
+    btn.Position = UDim2.new(0, 10, 0, posY)
+    btn.BackgroundColor3 = bgColor or Color3.fromRGB(50, 50, 50)
+    btn.BorderSizePixel = 0
+    btn.Text = text
+    btn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    btn.TextSize = 14
+    btn.Font = Enum.Font.GothamSemibold
+    btn.AutoButtonColor = true
+    btn.Parent = mainFrame
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 7)
+    corner.Parent = btn
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(100, 100, 100)
+    stroke.Thickness = 1
+    stroke.Parent = btn
+
+    return btn
+end
+
+local rightBaseBtn = createButton("RightBaseBtn", "Right Base",  50,  Color3.fromRGB(60, 100, 180))
+local leftBaseBtn  = createButton("LeftBaseBtn",  "Left Base",   98,  Color3.fromRGB(60, 100, 180))
+local tpLeftBtn    = createButton("TPLeftBtn",    "TP to Left",  146, Color3.fromRGB(40, 140, 80))
+local tpRightBtn   = createButton("TPRightBtn",   "TP to Right", 194, Color3.fromRGB(140, 60, 60))
+
+-- ── Speed Toggle ────────────────────────────
+local toggleRow = Instance.new("Frame")
+toggleRow.Name = "SpeedToggleRow"
+toggleRow.Size = UDim2.new(1, -20, 0, 32)
+toggleRow.Position = UDim2.new(0, 10, 0, 244)
+toggleRow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+toggleRow.BorderSizePixel = 0
+toggleRow.Parent = mainFrame
+
+local toggleRowCorner = Instance.new("UICorner")
+toggleRowCorner.CornerRadius = UDim.new(0, 7)
+toggleRowCorner.Parent = toggleRow
+
+local toggleRowStroke = Instance.new("UIStroke")
+toggleRowStroke.Color = Color3.fromRGB(80, 80, 80)
+toggleRowStroke.Thickness = 1
+toggleRowStroke.Parent = toggleRow
+
+local toggleLabel = Instance.new("TextLabel")
+toggleLabel.Size = UDim2.new(1, -44, 1, 0)
+toggleLabel.Position = UDim2.new(0, 10, 0, 0)
+toggleLabel.BackgroundTransparency = 1
+toggleLabel.Text = "Speed after Grab"
+toggleLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+toggleLabel.TextSize = 12
+toggleLabel.Font = Enum.Font.GothamSemibold
+toggleLabel.TextXAlignment = Enum.TextXAlignment.Left
+toggleLabel.Parent = toggleRow
+
+local checkbox = Instance.new("TextButton")
+checkbox.Name = "Checkbox"
+checkbox.Size = UDim2.new(0, 20, 0, 20)
+checkbox.Position = UDim2.new(1, -28, 0.5, -10)
+checkbox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+checkbox.BorderSizePixel = 0
+checkbox.Text = ""
+checkbox.AutoButtonColor = false
+checkbox.Parent = toggleRow
+
+local checkboxCorner = Instance.new("UICorner")
+checkboxCorner.CornerRadius = UDim.new(0, 5)
+checkboxCorner.Parent = checkbox
+
+local checkboxStroke = Instance.new("UIStroke")
+checkboxStroke.Color = Color3.fromRGB(100, 100, 100)
+checkboxStroke.Thickness = 1.5
+checkboxStroke.Parent = checkbox
+
+local checkmark = Instance.new("TextLabel")
+checkmark.Size = UDim2.new(1, 0, 1, 0)
+checkmark.BackgroundTransparency = 1
+checkmark.Text = "✓"
+checkmark.TextColor3 = Color3.fromRGB(60, 220, 100)
+checkmark.TextSize = 14
+checkmark.Font = Enum.Font.GothamBold
+checkmark.Visible = false
+checkmark.Parent = checkbox
+
+checkbox.MouseButton1Click:Connect(function()
+    speedAfterGrabEnabled = not speedAfterGrabEnabled
+    checkmark.Visible = speedAfterGrabEnabled
+    checkbox.BackgroundColor3 = speedAfterGrabEnabled
+        and Color3.fromRGB(30, 60, 35)
+        or  Color3.fromRGB(45, 45, 45)
+    checkboxStroke.Color = speedAfterGrabEnabled
+        and Color3.fromRGB(60, 220, 100)
+        or  Color3.fromRGB(100, 100, 100)
+end)
+
+-- ── Base Box Creator ────────────────────────
+local function createBaseBox(labelText, x, y, z, color)
+    local existing = workspace:FindFirstChild(labelText .. "Box")
+    if existing then existing:Destroy() end
+
+    local box = Instance.new("Part")
+    box.Name = labelText .. "Box"
+    box.Size = Vector3.new(4, 4, 4)
+    box.Position = Vector3.new(x, y, z)
+    box.Anchored = true
+    box.CanCollide = false
+    box.BrickColor = color or BrickColor.new("Bright blue")
+    box.Material = Enum.Material.Neon
+    box.Transparency = 0.4
+    box.Parent = workspace
+
+    local billboard = Instance.new("BillboardGui")
+    billboard.Size = UDim2.new(0, 160, 0, 40)
+    billboard.StudsOffset = Vector3.new(0, 3, 0)
+    billboard.AlwaysOnTop = true
+    billboard.Parent = box
+
+    local label = Instance.new("TextLabel")
+    label.Size = UDim2.new(1, 0, 1, 0)
+    label.BackgroundTransparency = 1
+    label.Text = labelText
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.TextScaled = true
+    label.Font = Enum.Font.GothamBold
+    label.Parent = billboard
+
+    return box
+end
+
+-- ── Equip Flying Carpet ─────────────────────
+local function equipFlyingCarpet()
+    local char = player.Character
+    if not char then return end
+    local humanoid = char:FindFirstChildOfClass("Humanoid")
+    if not humanoid then return end
+
+    local tool = player.Backpack:FindFirstChild("Flying Carpet")
+    if tool then
+        tool.Parent = char
+    elseif char:FindFirstChild("Flying Carpet") then
+        -- Already equipped
+    else
+        warn("Flying Carpet tool not found in backpack!")
+    end
+end
+
+-- ── Teleport helper ─────────────────────────
+local function tpTo(x, y, z)
+    local char = player.Character
+    if not char then return end
+    local rootPart = char:FindFirstChild("HumanoidRootPart")
+    if not rootPart then return end
+    rootPart.CFrame = CFrame.new(x, y, z)
+end
+
+-- ── Post-grab sequence for Right ────────────
+local function doRightPostGrabSequence()
+    local autoPos = autoTPRightBox
+        and (autoTPRightBox.Position + Vector3.new(0, 4, 0))
+        or Vector3.new(-348.4, -3.0, 90.7)
+    tpTo(autoPos.X, autoPos.Y, autoPos.Z)
+
+    task.wait(0.5)
+
+    local nextPos = nextTPAfterRightBox
+        and (nextTPAfterRightBox.Position + Vector3.new(0, 4, 0))
+        or Vector3.new(-348.3, -3.0, 76.5)
+    tpTo(nextPos.X, nextPos.Y, nextPos.Z)
+end
+
+-- ── Post-grab sequence for Left ─────────────
+local function doLeftPostGrabSequence()
+    local autoPos = autoTPLeftBox
+        and (autoTPLeftBox.Position + Vector3.new(0, 4, 0))
+        or Vector3.new(-349.7, -3.0, 29.3)
+    tpTo(autoPos.X, autoPos.Y, autoPos.Z)
+
+    task.wait(0.3)
+
+    local nextPos = nextTPAfterLeftBox
+        and (nextTPAfterLeftBox.Position + Vector3.new(0, 4, 0))
+        or Vector3.new(-349.7, -3.0, 18.3) -- 11 studs after on Z axis
+    tpTo(nextPos.X, nextPos.Y, nextPos.Z)
+end
+
+-- ── Two-Stage TP ────────────────────────────
+local function twoStageTP(midX, midY, midZ, finalPos, isRight)
+    local char = player.Character
+    if not char then return end
+    local rootPart = char:FindFirstChild("HumanoidRootPart")
+    if not rootPart then return end
+
+    -- Stage 1
+    rootPart.CFrame = CFrame.new(midX, midY, midZ)
+
+    task.wait(0.3)
+
+    char = player.Character
+    if not char then return end
+    rootPart = char:FindFirstChild("HumanoidRootPart")
+    if not rootPart then return end
+
+    -- Stage 2
+    rootPart.CFrame = CFrame.new(finalPos)
+
+    equipFlyingCarpet()
+
+    if isRight then
+        startAutoGrab(function()
+            doRightPostGrabSequence()
+        end)
+    else
+        startAutoGrab(function()
+            doLeftPostGrabSequence()
+        end)
+    end
+end
+
+-- ── Button Logic ────────────────────────────
+rightBaseBtn.MouseButton1Click:Connect(function()
+    rightBaseBox        = createBaseBox("RIGHT BASE",          -336.6, -5.1, 96.8, BrickColor.new("Bright blue"))
+    autoTPRightBox      = createBaseBox("AUTO TP RIGHT",       -348.4, -7.0, 90.7, BrickColor.new("Bright orange"))
+    nextTPAfterRightBox = createBaseBox("NEXT TP AFTER RIGHT", -348.3, -7.0, 76.5, BrickColor.new("Bright green"))
+end)
+
+leftBaseBtn.MouseButton1Click:Connect(function()
+    leftBaseBox        = createBaseBox("LEFT BASE",           -336.8, -5.0, 24.3,  BrickColor.new("Bright blue"))
+    autoTPLeftBox      = createBaseBox("AUTO TP LEFT",        -349.7, -7.0, 29.3,  BrickColor.new("Bright orange"))
+    nextTPAfterLeftBox = createBaseBox("NEXT TP AFTER LEFT",  -349.7, -7.0, 45.7,  BrickColor.new("Bright green"))
+end)
+
+tpLeftBtn.MouseButton1Click:Connect(function()
+    local finalPos
+    if leftBaseBox then
+        finalPos = leftBaseBox.Position + Vector3.new(0, 4, 0)
+    else
+        finalPos = Vector3.new(-336.8, -1.0, 24.3)
+    end
+    twoStageTP(-344.4, -7.0, 41.7, finalPos, false)
+end)
+
+tpRightBtn.MouseButton1Click:Connect(function()
+    local finalPos
+    if rightBaseBox then
+        finalPos = rightBaseBox.Position + Vector3.new(0, 4, 0)
+    else
+        finalPos = Vector3.new(-336.6, -1.1, 96.8)
+    end
+    twoStageTP(-345.2, -7.0, 77.3, finalPos, true)
+end)
