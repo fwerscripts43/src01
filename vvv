@@ -1,1 +1,63 @@
-key$20%semi@tp
+-- LocalScript (place inside StarterPlayerScripts or StarterCharacterScripts)
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+-- ============================================================
+-- 1. Stop the LOCAL CLIENT character's animations
+-- ============================================================
+local localPlayer = Players.LocalPlayer
+local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+if humanoid then
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    if animator then
+        for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+            track:Stop()
+            print("[Client] Stopped animation:", track.Name)
+        end
+    end
+end
+
+-- ============================================================
+-- 2. Stop animations on every model inside
+--    ReplicatedStorage -> Models -> Animals
+-- ============================================================
+local animalsFolder = ReplicatedStorage:FindFirstChild("Models")
+    and ReplicatedStorage.Models:FindFirstChild("Animals")
+
+if not animalsFolder then
+    warn("Could not find ReplicatedStorage.Models.Animals")
+    return
+end
+
+for _, model in ipairs(animalsFolder:GetChildren()) do
+    if not model:IsA("Model") then continue end
+
+    -- Try Humanoid first (NPCs / rigs with Humanoid)
+    local humanoidInModel = model:FindFirstChildOfClass("Humanoid")
+    if humanoidInModel then
+        local animator = humanoidInModel:FindFirstChildOfClass("Animator")
+        if animator then
+            for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+                track:Stop()
+                print("[Animals] Stopped animation on", model.Name, "->", track.Name)
+            end
+        end
+    end
+
+    -- Also catch any AnimationController (non-Humanoid rigs)
+    local animController = model:FindFirstChildOfClass("AnimationController")
+    if animController then
+        local animator = animController:FindFirstChildOfClass("Animator")
+        if animator then
+            for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+                track:Stop()
+                print("[Animals] Stopped AnimationController track on", model.Name, "->", track.Name)
+            end
+        end
+    end
+end
+
+print("Done — all animations stopped.")
