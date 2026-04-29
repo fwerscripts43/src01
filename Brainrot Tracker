@@ -1,1 +1,129 @@
+-- Draws arrow beams from the player to any models named below (edit if u want)
 
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+
+local player = Players.LocalPlayer
+local TARGET_NAMES = {
+	["Garama and Madundung"] = true,
+	["Dragon Cannelloni"] = true,
+  ["Ketchuru and Musturu"] = true,
+  ["Burguro and Fryuro"] = true,
+  ["Fragrama and Chocrama"] = true,
+  ["Hydra Dragon Cannelloni"] = true,
+  ["La Easter Grande"] = true,
+  ["La Lucky Grande"] = true,
+  ["Dragon Gingerini"] = true,
+}
+
+-- Wait for character to load
+local character = player.Character or player.CharacterAdded:Wait()
+local hrp = character:WaitForChild("HumanoidRootPart")
+
+-- Arrow beam texture (Roblox's built-in arrow texture ID)
+local ARROW_TEXTURE = "rbxassetid://6868281828"
+
+local activeBeams = {}
+
+local function createAttachment(parent)
+	local att = Instance.new("Attachment")
+	att.Parent = parent
+	return att
+end
+
+local function createBeam(fromAtt, toAtt, color)
+	local beam = Instance.new("Beam")
+	beam.Attachment0 = fromAtt
+	beam.Attachment1 = toAtt
+	beam.Texture = ARROW_TEXTURE
+	beam.TextureMode = Enum.TextureMode.Static
+	beam.TextureSpeed = 1.5        -- animates the arrow moving forward
+	beam.TextureLength = 3
+	beam.Width0 = 0.4
+	beam.Width1 = 0.4
+	beam.Color = ColorSequence.new(color)
+	beam.LightEmission = 0.6
+	beam.LightInfluence = 0.4
+	beam.FaceCamera = true
+	beam.Segments = 1              -- straight line
+	beam.CurveSize0 = 0
+	beam.CurveSize1 = 0
+	beam.Parent = hrp
+	return beam
+end
+
+local function getModelColor(name)
+	if name == "Garama and Madundung" then
+		return Color3.fromRGB(255, 100, 50)   -- orange-red
+	elseif name == "Dragon Cannelloni" then
+		return Color3.fromRGB(80, 200, 255)   -- icy blue
+	end
+	return Color3.fromRGB(255, 255, 255)
+end
+
+local function getModelRoot(model)
+	-- Try PrimaryPart first, then HumanoidRootPart, then any BasePart
+	if model.PrimaryPart then return model.PrimaryPart end
+	local hrpFound = model:FindFirstChild("HumanoidRootPart")
+	if hrpFound then return hrpFound end
+	return model:FindFirstChildWhichIsA("BasePart")
+end
+
+local function connectToModel(model)
+	if activeBeams[model] then return end  -- already connected
+
+	local targetRoot = getModelRoot(model)
+	if not targetRoot then return end
+
+	local fromAtt = createAttachment(hrp)
+	local toAtt   = createAttachment(targetRoot)
+	local color   = getModelColor(model.Name)
+	local beam    = createBeam(fromAtt, toAtt, color)
+
+	activeBeams[model] = {
+		beam    = beam,
+		fromAtt = fromAtt,
+		toAtt   = toAtt,
+	}
+
+	-- Clean up if the model is removed
+	model.AncestryChanged:Connect(function()
+		if not model:IsDescendantOf(game) then
+			if activeBeams[model] then
+				beam:Destroy()
+				fromAtt:Destroy()
+				toAtt:Destroy()
+				activeBeams[model] = nil
+			end
+		end
+	end)
+end
+
+local function scanWorkspace()
+	for _, obj in ipairs(workspace:GetDescendants()) do
+		if obj:IsA("Model") and TARGET_NAMES[obj.Name] then
+			connectToModel(obj)
+		end
+	end
+end
+
+-- Initial scan
+scanWorkspace()
+
+-- Watch for new models added during runtime
+workspace.DescendantAdded:Connect(function(obj)
+	if obj:IsA("Model") and TARGET_NAMES[obj.Name] then
+		task.wait()  -- small wait so model can finish loading
+		connectToModel(obj)
+	end
+end)
+
+-- Respawn handling: reconnect beams if character respawns
+player.CharacterAdded:Connect(function(newChar)
+	character = newChar
+	hrp = newChar:WaitForChild("HumanoidRootPart")
+	activeBeams = {}
+	task.wait(1)
+	scanWorkspace()
+end)
