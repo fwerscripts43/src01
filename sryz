@@ -1,7 +1,8 @@
--- Semi TP
+-- Semi TP {updated}
 
 local Players                = game:GetService("Players")
 local ProximityPromptService = game:GetService("ProximityPromptService")
+local RunService             = game:GetService("RunService")
 local player                 = Players.LocalPlayer
 
 -- ── Proximity Prompt Logic ──────────────────
@@ -56,9 +57,7 @@ local function startAutoGrab(afterGrabCallback)
                                             local c = player.Character
                                             if c then
                                                 local hum = c:FindFirstChildOfClass("Humanoid")
-                                                if hum then
-                                                    hum.WalkSpeed = 28
-                                                end
+                                                if hum then hum.WalkSpeed = 28 end
                                             end
                                         end
                                         if afterGrabCallback then
@@ -94,6 +93,7 @@ mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 mainFrame.BorderSizePixel = 0
 mainFrame.Active = true
 mainFrame.Draggable = true
+mainFrame.ClipsDescendants = true
 mainFrame.Parent = screenGui
 
 local frameCorner = Instance.new("UICorner")
@@ -105,22 +105,73 @@ frameStroke.Color = Color3.fromRGB(80, 80, 80)
 frameStroke.Thickness = 1.5
 frameStroke.Parent = mainFrame
 
+-- ── Snow Particles ──────────────────────────
+local snowflakes = {}
+local NUM_SNOW = 24
+
+local function makeSnowflake()
+    local lbl = Instance.new("TextLabel")
+    lbl.BackgroundTransparency = 1
+    lbl.Text = "❄"
+    lbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+    lbl.TextTransparency = math.random(1, 4) / 10
+    lbl.TextSize = math.random(8, 16)
+    lbl.Font = Enum.Font.GothamBold
+    lbl.Size = UDim2.new(0, 20, 0, 20)
+    lbl.Position = UDim2.new(math.random(0, 180) / 200, 0, math.random(-30, 0) / 290, 0)
+    lbl.ZIndex = 0
+    lbl.Parent = mainFrame
+    return {
+        label = lbl,
+        x     = math.random(0, 180) / 200,
+        y     = math.random(-30, 0) / 290,
+        speed = math.random(15, 40) / 1000,
+        drift = math.random(-5, 5) / 2000,
+    }
+end
+
+for i = 1, NUM_SNOW do
+    local flake = makeSnowflake()
+    flake.y = math.random(0, 290) / 290
+    flake.label.Position = UDim2.new(flake.x, 0, flake.y, 0)
+    snowflakes[i] = flake
+end
+
+RunService.Heartbeat:Connect(function(dt)
+    for _, flake in ipairs(snowflakes) do
+        flake.y = flake.y + flake.speed * dt * 60
+        flake.x = flake.x + flake.drift * dt * 60
+        if flake.y > 1.05 then
+            flake.y = -0.08
+            flake.x = math.random(0, 180) / 200
+            flake.speed = math.random(15, 40) / 1000
+            flake.drift = math.random(-5, 5) / 2000
+        end
+        if flake.x < 0 then flake.x = 0.9
+        elseif flake.x > 0.95 then flake.x = 0 end
+        flake.label.Position = UDim2.new(flake.x, 0, flake.y, 0)
+    end
+end)
+
+-- ── Title Label ─────────────────────────────
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Name = "Title"
 titleLabel.Size = UDim2.new(1, 0, 0, 40)
 titleLabel.Position = UDim2.new(0, 0, 0, 0)
 titleLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 titleLabel.BorderSizePixel = 0
-titleLabel.Text = "Semi TP"
+titleLabel.Text = "❄ Semi TP ❄"
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleLabel.TextSize = 18
+titleLabel.TextSize = 17
 titleLabel.Font = Enum.Font.GothamBold
+titleLabel.ZIndex = 2
 titleLabel.Parent = mainFrame
 
 local titleCorner = Instance.new("UICorner")
 titleCorner.CornerRadius = UDim.new(0, 10)
 titleCorner.Parent = titleLabel
 
+-- ── Button Helper ───────────────────────────
 local function createButton(name, text, posY, bgColor)
     local btn = Instance.new("TextButton")
     btn.Name = name
@@ -133,6 +184,7 @@ local function createButton(name, text, posY, bgColor)
     btn.TextSize = 14
     btn.Font = Enum.Font.GothamSemibold
     btn.AutoButtonColor = true
+    btn.ZIndex = 2
     btn.Parent = mainFrame
 
     local corner = Instance.new("UICorner")
@@ -159,6 +211,7 @@ toggleRow.Size = UDim2.new(1, -20, 0, 32)
 toggleRow.Position = UDim2.new(0, 10, 0, 244)
 toggleRow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
 toggleRow.BorderSizePixel = 0
+toggleRow.ZIndex = 2
 toggleRow.Parent = mainFrame
 
 local toggleRowCorner = Instance.new("UICorner")
@@ -179,6 +232,7 @@ toggleLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
 toggleLabel.TextSize = 12
 toggleLabel.Font = Enum.Font.GothamSemibold
 toggleLabel.TextXAlignment = Enum.TextXAlignment.Left
+toggleLabel.ZIndex = 2
 toggleLabel.Parent = toggleRow
 
 local checkbox = Instance.new("TextButton")
@@ -189,6 +243,7 @@ checkbox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 checkbox.BorderSizePixel = 0
 checkbox.Text = ""
 checkbox.AutoButtonColor = false
+checkbox.ZIndex = 2
 checkbox.Parent = toggleRow
 
 local checkboxCorner = Instance.new("UICorner")
@@ -208,6 +263,7 @@ checkmark.TextColor3 = Color3.fromRGB(60, 220, 100)
 checkmark.TextSize = 14
 checkmark.Font = Enum.Font.GothamBold
 checkmark.Visible = false
+checkmark.ZIndex = 2
 checkmark.Parent = checkbox
 
 checkbox.MouseButton1Click:Connect(function()
@@ -222,24 +278,31 @@ checkbox.MouseButton1Click:Connect(function()
 end)
 
 -- ── Base Box Creator ────────────────────────
-local function createBaseBox(labelText, x, y, z, color)
+local function createBaseBox(labelText, x, y, z)
     local existing = workspace:FindFirstChild(labelText .. "Box")
     if existing then existing:Destroy() end
 
     local box = Instance.new("Part")
     box.Name = labelText .. "Box"
-    box.Size = Vector3.new(4, 4, 4)
-    box.Position = Vector3.new(x, y, z)
+    box.Size = Vector3.new(6, 0.4, 6)
+    box.CFrame = CFrame.new(x, y, z)
     box.Anchored = true
     box.CanCollide = false
-    box.BrickColor = color or BrickColor.new("Bright blue")
-    box.Material = Enum.Material.Neon
-    box.Transparency = 0.4
+    box.BrickColor = BrickColor.new("Really black")
+    box.Material = Enum.Material.SmoothPlastic
+    box.Transparency = 0
     box.Parent = workspace
 
+    local selBox = Instance.new("SelectionBox")
+    selBox.Adornee = box
+    selBox.Color3 = Color3.fromRGB(255, 255, 255)
+    selBox.LineThickness = 0.05
+    selBox.SurfaceTransparency = 1
+    selBox.Parent = box
+
     local billboard = Instance.new("BillboardGui")
-    billboard.Size = UDim2.new(0, 160, 0, 40)
-    billboard.StudsOffset = Vector3.new(0, 3, 0)
+    billboard.Size = UDim2.new(0, 180, 0, 40)
+    billboard.StudsOffset = Vector3.new(0, 2, 0)
     billboard.AlwaysOnTop = true
     billboard.Parent = box
 
@@ -261,7 +324,6 @@ local function equipFlyingCarpet()
     if not char then return end
     local humanoid = char:FindFirstChildOfClass("Humanoid")
     if not humanoid then return end
-
     local tool = player.Backpack:FindFirstChild("Flying Carpet")
     if tool then
         tool.Parent = char
@@ -284,30 +346,30 @@ end
 -- ── Post-grab sequence for Right ────────────
 local function doRightPostGrabSequence()
     local autoPos = autoTPRightBox
-        and (autoTPRightBox.Position + Vector3.new(0, 4, 0))
-        or Vector3.new(-348.4, -3.0, 90.7)
+        and (autoTPRightBox.Position + Vector3.new(0, 3, 0))
+        or Vector3.new(-348.4, -4.0, 90.7)
     tpTo(autoPos.X, autoPos.Y, autoPos.Z)
 
-    task.wait(0.5)
+    task.wait(0.1)
 
     local nextPos = nextTPAfterRightBox
-        and (nextTPAfterRightBox.Position + Vector3.new(0, 4, 0))
-        or Vector3.new(-348.3, -3.0, 76.5)
+        and (nextTPAfterRightBox.Position + Vector3.new(0, 3, 0))
+        or Vector3.new(-347.23, -3.58, 61.94)
     tpTo(nextPos.X, nextPos.Y, nextPos.Z)
 end
 
 -- ── Post-grab sequence for Left ─────────────
 local function doLeftPostGrabSequence()
     local autoPos = autoTPLeftBox
-        and (autoTPLeftBox.Position + Vector3.new(0, 4, 0))
-        or Vector3.new(-349.7, -3.0, 29.3)
+        and (autoTPLeftBox.Position + Vector3.new(0, 3, 0))
+        or Vector3.new(-349.7, -4.0, 29.3)
     tpTo(autoPos.X, autoPos.Y, autoPos.Z)
 
-    task.wait(0.3)
+    task.wait(0.1)
 
     local nextPos = nextTPAfterLeftBox
-        and (nextTPAfterLeftBox.Position + Vector3.new(0, 4, 0))
-        or Vector3.new(-349.7, -3.0, 18.3) -- 11 studs after on Z axis
+        and (nextTPAfterLeftBox.Position + Vector3.new(0, 3, 0))
+        or Vector3.new(-349.43, -3.58, 58.31)
     tpTo(nextPos.X, nextPos.Y, nextPos.Z)
 end
 
@@ -321,7 +383,7 @@ local function twoStageTP(midX, midY, midZ, finalPos, isRight)
     -- Stage 1
     rootPart.CFrame = CFrame.new(midX, midY, midZ)
 
-    task.wait(0.3)
+    task.wait(0.1) -- quick
 
     char = player.Character
     if not char then return end
@@ -346,23 +408,23 @@ end
 
 -- ── Button Logic ────────────────────────────
 rightBaseBtn.MouseButton1Click:Connect(function()
-    rightBaseBox        = createBaseBox("RIGHT BASE",          -336.6, -5.1, 96.8, BrickColor.new("Bright blue"))
-    autoTPRightBox      = createBaseBox("AUTO TP RIGHT",       -348.4, -7.0, 90.7, BrickColor.new("Bright orange"))
-    nextTPAfterRightBox = createBaseBox("NEXT TP AFTER RIGHT", -348.3, -7.0, 76.5, BrickColor.new("Bright green"))
+    rightBaseBox        = createBaseBox("RIGHT BASE",          -336.6,  -5.1,  96.8)
+    autoTPRightBox      = createBaseBox("AUTO TP RIGHT",       -348.4,  -7.0,  90.7)
+    nextTPAfterRightBox = createBaseBox("NEXT TP AFTER RIGHT", -347.23, -6.58, 61.94)
 end)
 
 leftBaseBtn.MouseButton1Click:Connect(function()
-    leftBaseBox        = createBaseBox("LEFT BASE",           -336.8, -5.0, 24.3,  BrickColor.new("Bright blue"))
-    autoTPLeftBox      = createBaseBox("AUTO TP LEFT",        -349.7, -7.0, 29.3,  BrickColor.new("Bright orange"))
-    nextTPAfterLeftBox = createBaseBox("NEXT TP AFTER LEFT",  -349.7, -7.0, 45.7,  BrickColor.new("Bright green"))
+    leftBaseBox        = createBaseBox("LEFT BASE",          -336.8,  -5.0,  24.3)
+    autoTPLeftBox      = createBaseBox("AUTO TP LEFT",       -349.7,  -7.0,  29.3)
+    nextTPAfterLeftBox = createBaseBox("NEXT TP AFTER LEFT", -349.43, -6.58, 58.31)
 end)
 
 tpLeftBtn.MouseButton1Click:Connect(function()
     local finalPos
     if leftBaseBox then
-        finalPos = leftBaseBox.Position + Vector3.new(0, 4, 0)
+        finalPos = leftBaseBox.Position + Vector3.new(0, 3, 0)
     else
-        finalPos = Vector3.new(-336.8, -1.0, 24.3)
+        finalPos = Vector3.new(-336.8, -2.0, 24.3)
     end
     twoStageTP(-344.4, -7.0, 41.7, finalPos, false)
 end)
@@ -370,9 +432,9 @@ end)
 tpRightBtn.MouseButton1Click:Connect(function()
     local finalPos
     if rightBaseBox then
-        finalPos = rightBaseBox.Position + Vector3.new(0, 4, 0)
+        finalPos = rightBaseBox.Position + Vector3.new(0, 3, 0)
     else
-        finalPos = Vector3.new(-336.6, -1.1, 96.8)
+        finalPos = Vector3.new(-336.6, -2.1, 96.8)
     end
     twoStageTP(-345.2, -7.0, 77.3, finalPos, true)
 end)
